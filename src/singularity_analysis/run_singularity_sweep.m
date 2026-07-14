@@ -32,7 +32,7 @@ qTemplate = [0; -pi/2; 0; 0; 1.0; 0];
 q3Values = linspace(0.50, 0.01, 250);
 
 taskVelocity = [0; 0.01; 0; 0; 0; 0];  % 1 cm/s along base-frame +Y
-lambda = 0.05;
+lambda = 0.01;
 
 gToolPen = [1, 0, 0, 0;
             0, 1, 0, -0.049;

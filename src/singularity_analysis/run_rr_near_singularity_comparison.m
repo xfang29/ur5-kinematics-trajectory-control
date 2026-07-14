@@ -35,7 +35,7 @@ cfg.dt = 0.01;           % s
 
 cfg.Kp = 2.0;            % translational feedback gain [1/s]
 cfg.Kr = 2.0;            % rotational feedback gain [1/s]
-cfg.lambda = 0.05;       % fixed DLS damping
+cfg.lambda = 0.01;       % fixed DLS damping
 cfg.jointSpeedLimit = 0.23; % rad/s, same limit as original rr_control.m
 
 cfg.gToolPen = [1, 0, 0, 0;
